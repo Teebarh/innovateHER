@@ -1,0 +1,51 @@
+body {
+  margin: 0%;
+  padding: 0%;
+}
+
+html {
+  background-image: url(../assets/home.png);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div.allContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: rgba(184, 2, 87, 0.5);
+  height: 100vh;
+}
+
+#pageHeader {
+  color: white;
+  margin-bottom: 5em;
+  margin-top: 6em;
+  text-align: center;
+  font-size: 2em;
+}
+.btn {
+  padding: 0.7em 6em;
+  background-color: white;
+  margin-top: 2em;
+  border-radius: 1em;
+  font-weight: bold;
+}
+.btn2 {
+  padding: 0.7em 5.8em;
+  background-color: white;
+  margin-top: 1em;
+  border-radius: 1em;
+  font-weight: bold;
+}
+.homeParagraph {
+  color: white;
+  font-size: 0.8em;
+  margin-top: 2em;
+}
