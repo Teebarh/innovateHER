@@ -1,0 +1,286 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: "Poppins", sans-serif;
+}
+
+h2 {
+  font-size: 29px;
+}
+.allContent {
+  padding: 20px;
+  background-color: #f1f1f1;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Styles for the navigation part  */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0px;
+}
+
+nav ul.main {
+  display: flex;
+  width: 15vw;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.nav-open {
+  display: none;
+  display: block;
+  position: fixed;
+  top: 60px;
+  right: 20px;
+  border-radius: 8px;
+  padding: 15px;
+  width: 127px;
+  background-color: white;
+  padding-bottom: 0px;
+  z-index: 100;
+  transition: all 0.5s ease-in-out;
+}
+
+.nav-open ul {
+  list-style: none;
+}
+
+.nav-open ul li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.nav-open ul li img {
+  margin-right: 10px;
+  width: 24px;
+  height: 24px;
+}
+
+/* Styles for the calendar part  */
+.calendar .header {
+  display: flex;
+  padding: 10px 0px;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.calendar .header p {
+  display: flex;
+  align-items: center;
+}
+.calendar .header p img {
+  margin-left: 10px;
+}
+.calendar .header h2 {
+  font-size: 23px;
+}
+
+.calendar .calendarContent {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0px;
+}
+
+.calendar .calendarDay h3 {
+  font-size: 15px;
+  padding: 5px;
+}
+
+.calendar .calendarDay {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  align-items: center;
+}
+
+.calendarContent p {
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 5px;
+}
+
+.calendarContent p.active {
+  width: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 44px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+/* The main article part  */
+.mainArticle {
+  background-color: rgb(56, 55, 55);
+  border-radius: 8px;
+  background-image: url("../assets/free-photo-of-a-woman-standing-in-a-field-at-sunset.jpeg");
+  background-position: center;
+  height: 120px;
+  padding-top: 80px;
+}
+
+.mainArticle .button {
+  width: 110px;
+  padding: 8px 15px;
+  background-color: white;
+  color: black;
+  margin: auto;
+  border-radius: 24px;
+}
+
+.mainArticle .timeline {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  padding: 10px;
+}
+
+.mainArticle .timeline .edit {
+  padding: 3px 12px;
+  color: black;
+  background-color: white;
+  border-radius: 12px;
+}
+
+/* The symptoms part */
+.symptoms {
+  padding-top: 19px;
+}
+.symptoms h2 {
+  margin-top: 20px;
+  font-size: 26px;
+}
+
+.symptoms .circles {
+  display: flex;
+  border-radius: 7px;
+}
+
+.symptoms section {
+  padding: 20px;
+  max-width: 100px;
+  margin: 10px 0px;
+  background-color: white;
+}
+.symptoms .circle {
+  background-color: white;
+  padding: 3px;
+  border-radius: 50%;
+  max-width: fit-content;
+}
+
+.symptoms .circle .first {
+  display: flex;
+  border-radius: 50%;
+  min-width: 30px;
+  margin-right: -9px;
+  min-height: 30px;
+  background-color: #f3afaf;
+}
+
+.symptoms .circle .second {
+  display: flex;
+  border-radius: 50%;
+  min-width: 30px;
+  margin-right: -9px;
+  min-height: 30px;
+  background-color: #a4b7a8;
+}
+
+.symptoms .circle .main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  min-width: 30px;
+  min-height: 30px;
+  background-color: #d6d6d6;
+  font-size: 1.2em;
+  font-weight: 700;
+}
+
+.symptoms section .addSymptoms {
+  margin: 10px auto;
+  background-color: #fdafd2;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: 34px;
+  font-weight: 300;
+}
+
+/* The styling for the articles section  */
+.articles .header {
+  display: flex;
+  padding: 10px 0px;
+  padding-top: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.articles .header p {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+}
+.articles .header p img {
+  margin-left: 10px;
+}
+.articles .header h2 {
+  font-size: 28px;
+}
+
+.articles ul.article {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.articles ul li {
+  position: relative;
+  background-image: url("../assets/free-photo-of-a-woman-standing-in-a-field-at-sunset.jpeg");
+  background-position: 50%;
+  border-radius: 8px;
+  width: calc(50vw - 30px);
+  margin: 10px 0px;
+  height: 200px;
+}
+
+.articles li .tag {
+  width: max-content;
+  padding: 5px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: white;
+  color: black;
+  margin: 10px;
+  border-radius: 24px;
+}
+
+.articles li .tag img {
+  margin: 0px 9px;
+}
+
+.articles li h2 {
+  font-size: 20px;
+  color: white;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
