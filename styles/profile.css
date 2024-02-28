@@ -1,0 +1,55 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: "Poppins", sans-serif;
+}
+
+h2 {
+  font-size: 29px;
+}
+.allContent {
+  padding: 20px;
+  background-color: #f1f1f1;
+  list-style-type: none;
+  min-height: 90vh;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.head {
+  background-color: white;
+  padding: 30px 20px;
+  display: flex;
+}
+
+.head h1 {
+  font-size: 25px;
+  margin-left: 20px;
+}
+
+.allContent .info {
+  display: flex;
+  align-items: center;
+}
+
+.info img {
+  width: 72px;
+  height: 72px;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+.info div {
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+  height: 50px;
+  justify-content: space-between;
+}
+.info div .email {
+  font-weight: 600;
+  font-size: 18px;
+}

@@ -1,0 +1,96 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: "Poppins", sans-serif;
+}
+
+h2 {
+  font-size: 29px;
+}
+.allContent {
+  padding: 20px;
+  background-color: #f1f1f1;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.head {
+  background-color: white;
+  padding: 30px 20px;
+  display: flex;
+}
+
+.head h1 {
+  font-size: 25px;
+  margin-left: 20px;
+}
+
+.articles .header {
+  display: flex;
+  padding: 10px 0px;
+  padding-top: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.articles .header p {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+}
+.articles .header p img {
+  margin-left: 10px;
+}
+.articles .header h2 {
+  font-size: 28px;
+}
+
+.articles ul.article {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.articles ul li {
+  position: relative;
+  background-image: url("../assets/free-photo-of-a-woman-standing-in-a-field-at-sunset.jpeg");
+  background-position: 70%;
+  border-radius: 8px;
+  width: calc(50vw - 28px);
+  margin: 10px 0px;
+  height: 200px;
+}
+
+.articles ul li.second {
+  background-image: url("../assets/pregnant.jpeg");
+}
+
+.articles li .tag {
+  width: max-content;
+  font-size: 13px;
+  padding: 5px 12px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: white;
+  color: black;
+  margin: 10px;
+  border-radius: 24px;
+}
+
+.articles li .tag img {
+  margin-right: 9px;
+  height: 12px;
+}
+
+.articles li h2 {
+  font-size: 17px;
+  color: white;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
