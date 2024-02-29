@@ -7,7 +7,7 @@ Maternify addresses the issue of fragmented pregnancy information, aiming to pro
 The Maternify project aims to create an intuitive and resourceful web application supporting expectant mothers. By integrating user-friendly design with reliable, comprehensive resources, the app seeks to enhance maternal and child well-being, addressing a need for healthcare accessibility and education.
 
 ### Check out our Web App
-[Maternify Web App](maternify.azurewebsites.net)
+[Maternify Web App](https://maternify.azurewebsites.net)
 
 ### Check out our Presentation Deck
 [Presentation Deck](https://1drv.ms/p/s!ApMGZZJ0814pl0yuPGarBOXoGS62?e=UCjD2X)
