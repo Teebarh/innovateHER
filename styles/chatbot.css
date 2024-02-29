@@ -1,10 +1,25 @@
-.myBot {
-  min-width: 400px;
-  width: 100%;
-  min-height: 500px;
+* {
+  padding: 0px;
+  margin: 0px;
 }
+
 iframe {
-  height: 100vh;
-  width: 100%;
-  /* scroll-behavior: none; */
+  height: 95vh;
+  width: 100vw;
+}
+
+.head {
+  position: fixed;
+  top: 0px;
+  width: calc(100vw - 40px);
+  left: 0px;
+  background-color: white;
+  padding: 20px 20px;
+  display: flex;
+  align-items: center;
+}
+
+.head h1 {
+  font-size: 25px;
+  margin-left: 20px;
 }
