@@ -1,9 +1,9 @@
 <?php
  //database connection variables for your UOS webspace database
- $servername = "localhost";
- $username = "root";
- $password = "";
- $database = "maternify"; 
+ $servername = "maternifydatabase.mysql.database.azure.com";
+ $username = "innovateher";
+ $password = "Teebarh123!";
+ $database = "maternifydatabase"; 
 
  try {
     // Create a new PDO connection
