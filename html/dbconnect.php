@@ -1,7 +1,7 @@
 <?php
 $servername = "maternifydatabase.mysql.database.azure.com";
 $username = "innovateher";
-$password = "";
+$password = "1234Toyiba";
 $database = "maternifydatabase"; 
 
 try {
