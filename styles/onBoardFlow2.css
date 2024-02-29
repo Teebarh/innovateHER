@@ -1,0 +1,55 @@
+.status {
+  display: flex;
+  justify-content: center;
+  gap: 0.5em;
+  margin: 2em 1em;
+  align-items: center;
+}
+.progressBar1 {
+  width: 90%;
+}
+.skip {
+  font-size: 1em;
+  font-weight: lighter;
+}
+.header1 {
+  text-align: center;
+}
+.selectBtn {
+  width: 95%;
+  margin-bottom: 0.5em;
+  margin-left: 1em;
+  margin-right: 1em;
+  padding: 1em 0.8em;
+  background-color: light-grey;
+  color: black;
+  border: none;
+  border-radius: 0.5em;
+  text-align: start;
+}
+.selectBtn:hover {
+  background-color: #fc7fb6;
+}
+/* .ActiveBtn {
+  width: 95%;
+  margin-bottom: 0.5em;
+  margin-left: 1em;
+  margin-right: 1em;
+  padding: 1em 0.5em;
+  background-color: #fc7fb6;
+  color: white;
+  border: none;
+  border-radius: 0.5em; */
+
+.nextBtn2 {
+  width: 37%;
+  position: absolute;
+  top: 107vh;
+  left: 8em;
+  right: 2em;
+  background-color: #fc7fb5d1;
+  border: none;
+  border-radius: 1.5em;
+  padding: 1em 0.5em;
+  color: white;
+}
