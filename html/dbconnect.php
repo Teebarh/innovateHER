@@ -1,9 +1,9 @@
 <?php
  //database connection variables for your UOS webspace database
- $servername = "localhost";
- $username = "root";
- $password = "";
- $database = "maternify"; 
+ $servername = "maternifydatabase.mysql.database.azure.com";
+ $username = "innovateher";
+ $password = "Teebarh123!";
+ $database = "maternifydatabase"; 
 
  try {
     // Create a new PDO connection
@@ -11,8 +11,7 @@
 
     // Set the PDO error mode to exception
     $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-
-    echo "";
+     echo "";
 } catch (PDOException $e) {
     echo "Connection failed: " . $e->getMessage();
 }
