@@ -8,3 +8,18 @@ iframe {
   width: 100%;
   /* scroll-behavior: none; */
 }
+
+.head {
+  position: fixed;
+  top: 0px;
+  width: calc(100vw - 40px);
+  background-color: white;
+  padding: 0px 20px;
+  display: flex;
+  align-items: center;
+}
+
+.head h1 {
+  font-size: 25px;
+  margin-left: 20px;
+}
