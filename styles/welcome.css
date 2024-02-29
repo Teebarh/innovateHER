@@ -35,10 +35,11 @@ html {
   text-align: center;
 }
 .continueBtn {
-  padding: 0.7em 6em;
+  padding: 0.9em 5em;
   background-color: white;
   font-weight: bold;
   border-radius: 1.1em;
   margin-bottom: 3em;
   margin-top: 3em;
+  border: none;
 }
