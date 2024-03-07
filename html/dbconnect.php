@@ -1,12 +1,9 @@
 <?php
-// $servername = "maternifyapp-server.mysql.database.azure.com";
-// $username = "goppvwolqr";
-// $password = "";
-// $database = "maternifyapp-server"; 
-$servername = "localhost";
-$username = "root";
+$servername = "maternifyapp-server.mysql.database.azure.com";
+$username = "goppvwolqr";
 $password = "";
-$database = "maternify"; 
+$database = "maternifyapp-server"; 
+
 try {
     // Set up SSL options
     $options = array(
